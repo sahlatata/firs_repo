@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+body{
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+/* ---------------------------section5----------------------------------- */
+.section5{
+    margin: 88px 13% 80px;
+}
+.improve-style{
+   text-align: center;
+}
+
+.improve-style h1{
+    color: #00b39b;
+    font-size: 40px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+.improve-style p {
+    font-size: 14px;
+    margin: 22.4px; 
+    line-height:1.7;
+}
+/* .............partie 2 section 5 */
+.all-sliders {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.slider{
+    width: 30%;
+    float: left;
+    border: 1px solid rgb(224, 228, 224);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left:20px;
+    
+}
+.slider:hover{
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+}
+
+.shadow{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    position: relative;
+    display: block;
+    color: #747474;
+    text-decoration:none;
+    
+}
+
+.marj {
+    display: block;
+    margin: 0 auto;
+}
+   
+.war-text{
+    text-align: center;
+}
+.btt{
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    margin: 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    margin-right: 10px;
+}
+.buttt{
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+    margin: 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    margin-right: 10px;
+}
+
+.slider button:hover{
+        color: #fff;
+        background: #1662c6;
+}
+.coeur{ 
+        color: rgb(255, 0, 0) ;
+        cursor: pointer;
+    }  
+    
+/* ----------------------------------------------------------------------------- */
